@@ -25,7 +25,7 @@ class Database extends Config
      * The default database connection.
      */
     public array $default = [
-        'DSN'      => '',
+        'DSN'      => 'MySQLi://root:@hostname:3306/database?charset=utf8&DBCollat=utf8_general_ci',
         'hostname' => 'localhost',
         'username' => 'root',
         'password' => '',
